@@ -1,4 +1,4 @@
-# Writeup -- Exploiting onexit_hook with Format String (CTF Pwn Challenge)
+# Writeup - only_two
 
 ## 1. Challenge Overview
 
