@@ -31,7 +31,7 @@ As long as \(m^3 < N\) (true here since the flag is small compared to 3 × 1024�
 
 ---
 
-## 💡 Special Observation
+## Special Observation
 In the given data, we notice:
 ```
 c1 == c2 == c3
@@ -46,7 +46,7 @@ c_1 = c_2 = c_3 = m^3
 
 ---
 
-## 🛠️ Exploit
+## Exploit
 We use **integer cube root** via Newton’s method to compute \(m = \sqrt[3]{c}\).
 
 ### Solver
