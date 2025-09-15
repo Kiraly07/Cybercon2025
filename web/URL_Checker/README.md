@@ -4,7 +4,7 @@
 
 The challenge involved exploiting a **Server-Side Request Forgery (SSRF)** vulnerability in a WordPress site, chained with a **time-based blind SQL injection** inside the `w2dc_get_map_marker_info` AJAX action. By abusing the SSRF entry point, we were able to reach internal WordPress endpoints and extract sensitive data, including the flag stored in the `wp_options` table.
 
-## 🔍 Step 1: Identifying the SSRF
+## Step 1: Identifying the SSRF
 
 The web application exposed an endpoint:
 
@@ -112,3 +112,7 @@ This chained vulnerability demonstrates how SSRF + SQLi can lead to **complete c
 ## Conclusion
 
 The challenge exploited a **time-based blind SQL injection via SSRF** in a WordPress AJAX action. By carefully measuring delays and automating character extraction, we successfully leaked the secret flag from the database.
+
+<img width="1016" height="855" alt="image" src="https://github.com/user-attachments/assets/e06968a3-09d5-412c-a56a-46fc8a558028" />
+
+
